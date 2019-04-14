@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Idea Sharing</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_about">Info</string>
+    <string name="about">Developer Student Club KIET is inspired by Google Developers Family. We started our journey in Feb 2019. We try to engage student developers through our hack events, codelabs and meetups. The motive is to create a local ecosystem of programmers &amp; hackers in and around the Campus. The technology awareness is main goal for first few years of the group.</string>
+    <string name="version">0.0.1</string>
+    <string name="contributors">Aakash Goel\nShreeyanshi Gupta</string>
+    <string name="website">visit us at https://dsckiet.tech</string>
+</resources>
