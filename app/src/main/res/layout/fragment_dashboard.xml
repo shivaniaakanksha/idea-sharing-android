@@ -25,6 +25,7 @@
             android:textStyle="bold" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title_page">
@@ -41,12 +42,12 @@
             android:id="@+id/floating_addBtn"
             style="@style/Widget.MaterialComponents.FloatingActionButton"
             android:layout_width="wrap_content"
-            android:backgroundTint="@color/colorPrimary"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
             android:layout_gravity="bottom|right"
             android:layout_margin="16dp"
+            android:backgroundTint="@color/colorPrimary"
             app:srcCompat="@drawable/ic_add_black_24dp" />
     </RelativeLayout>
 </ScrollView>
