@@ -28,7 +28,9 @@
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/google_sign_in"
                 style="@style/CardButtonStyle"
-                android:layout_margin="64dp"
+                android:layout_marginHorizontal="64dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="16dp"
                 android:visibility="visible"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="4dp">
@@ -56,6 +58,15 @@
 
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/termsofuse"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Terms of use" />
 
 
         </LinearLayout>
