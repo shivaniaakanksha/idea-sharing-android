@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    useLibrary 'org.apache.http.legacy'
     compileSdkVersion 28
     defaultConfig {
         applicationId "tech.dsckiet.ideasharing"
@@ -21,15 +22,26 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //design
     implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
     implementation 'androidx.vectordrawable:vectordrawable:1.0.0-beta01'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+
     testImplementation 'junit:junit:4.12'
+
+    //firebase
     implementation 'com.google.firebase:firebase-core:16.+'
     implementation 'com.google.firebase:firebase-auth:16.+'
     implementation 'com.google.android.gms:play-services-auth:16.+'
-//    implementation 'com.android.support:design:28.+'
-    implementation 'com.google.android.material:material:1.0.0'
+
+
+    //http
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.1'
+    implementation 'com.google.code.gson:gson:2.8.2'
     androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
 }
